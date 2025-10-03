@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*.*.*' # Trigger cuando se crea un tag que comienza con 'v' (ej. v1.0.0)
 
+permissions:
+  contents: write # Necesario para crear releases
+
 jobs:
   create-github-release:
     runs-on: ubuntu-latest
