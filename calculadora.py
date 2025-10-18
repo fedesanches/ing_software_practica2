@@ -14,5 +14,5 @@ def main():
 
     print(suma(args.num1, args.num2))
 
-if __name__ == "__main__":
-    main()
+""" if __name__ == "__main__":
+    main() """
